@@ -5,6 +5,7 @@ The Latest taggers custom map project template (LTCMPT) is a tool for you to mak
 Well for first, You need to either build your map inside unity or inside blender or any other modeling programs.
 After that make sure to import it and put it inside the Game Object "Map Parent", if you delete the Game Object "Map Parent" it will break your whole map so do not delete it!
 When your map is inside the Game Object "Map Parent" you can configure it in any way you want! by using some of the base template materials, models and textures you can shape your map how you want it to be!
+Also make sure to configure the spawn point gameobjects position inside the inspector to make sure the player spawns at the right position! this is the same with the terminal spawn position :D.
 
 # Exporting your first map!
 Once you have finished configuring and making your map, drag the Map Parent gameobject inside the Assets folder at the bottom of your screen (or wherever you have it docked).
