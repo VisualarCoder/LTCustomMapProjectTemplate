@@ -33,9 +33,15 @@ public class CustomEditor
         //Application.OpenURL("https://github.com/VisualarCoder/LTCustomMapProjectTemplate/blob/main/README.md");
     }
 
-    [MenuItem("LatestTaggers/Locate Spawn Point")]
+    [MenuItem("LatestTaggers/Sub Directories/Locate Spawn Point")]
     static void Locate()
     {
         Selection.activeGameObject = GameObject.Find("Spawn Point");
+    }
+
+    [MenuItem("LatestTaggers/Sub Directories/Locate Terminal Spawn Point")]
+    static void Locate2()
+    {
+        Selection.activeGameObject = GameObject.Find("Terminal Spawn Point");
     }
 }

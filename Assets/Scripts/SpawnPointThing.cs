@@ -6,9 +6,12 @@ using UnityEngine;
 public class SpawnPointThing : MonoBehaviour
 {
     GameObject _;
+    GameObject _2;
 
     public void Update()
     {
+        _2 = GameObject.Find("Terminal Spawn Point");
+
         if (_ ==  null)
         {
             _ = GameObject.Find("Spawn Point");
@@ -21,5 +24,10 @@ public class SpawnPointThing : MonoBehaviour
         color.a = 0.5f;
         Gizmos.color = color;
         Gizmos.DrawSphere(_.transform.position, 0.10f);
+
+        Color color2 = Color.cyan;
+        color2.a = 0.5f;
+        Gizmos.color = color2;
+        Gizmos.DrawSphere(_2.transform.position, 0.10f);
     }
 }
