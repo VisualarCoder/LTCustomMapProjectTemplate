@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!187 &18700000
+Texture2DArray:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TexArrayAtlas_8x8_BC7
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  m_ColorSpace: 1
+  m_Format: 108
+  m_Width: 8
+  m_Height: 8
+  m_Depth: 1
+  m_MipCount: 4
+  m_DataSize: 112
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_UsageMode: 0
+  m_IsReadable: 1
+  image data: 112
+  _typelessdata: 362fd0b338730b3f17b7205aec211ed186bfe450b570fc73494813f166c25e0136bfe917f2e15f15e083a235f4b31ed10a7c68f0bc77dca9b838dd093753ca0b7675f47bbb553377a546fe34e46d88ed86ec88ca2679aa3068a161f87960f87920c4ffed4ffbffffafaaaaaa00000000
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path:

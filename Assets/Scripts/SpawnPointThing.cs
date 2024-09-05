@@ -10,12 +10,9 @@ public class SpawnPointThing : MonoBehaviour
 
     public void Update()
     {
+        // griddy
         _2 = GameObject.Find("Terminal Spawn Point");
-
-        if (_ ==  null)
-        {
-            _ = GameObject.Find("Spawn Point");
-        }
+        _ = GameObject.Find("Player Spawn Point");
     }
 
     public void OnDrawGizmos()

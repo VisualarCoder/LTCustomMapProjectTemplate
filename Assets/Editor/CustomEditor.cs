@@ -36,7 +36,7 @@ public class CustomEditor
     [MenuItem("LatestTaggers/Sub Directories/Locate Spawn Point")]
     static void Locate()
     {
-        Selection.activeGameObject = GameObject.Find("Spawn Point");
+        Selection.activeGameObject = GameObject.Find("Player Spawn Point");
     }
 
     [MenuItem("LatestTaggers/Sub Directories/Locate Terminal Spawn Point")]
