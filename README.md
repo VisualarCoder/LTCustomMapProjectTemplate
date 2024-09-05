@@ -1,4 +1,4 @@
-**# LTCustomMapProjectTemplate
+# LTCustomMapProjectTemplate
 The Latest taggers custom map project template (LTCMPT) is a tool for you to make maps for Latest Taggers. You will need unity, and the unity version ("2022.3.2f1") to use this tool.
 
 # Making your first map!
@@ -26,4 +26,4 @@ Well, for first you need to either create a cube or whatever you want to be clim
 Next select your climbable in the Hierarchy and look under the objects name and click the dropdown next to where it says tag. Once you have clicked it select the tag that says LTClimbable!
 Next once you have setup the tag onto your climbable, if your object hasn't already got a collider add one by clicking add component in the inspector while selecting your object and typing collider. If its a custom model add a mesh collider, otherwise add the collider that fits your climbable.
 After adding your collider if your using a mesh collider, find the component and make sure convex and is trigger is toggled to true. If your using a box collider, sphere collider, etc. Just tick the is trigger option!
-Once you have followed all those steps your climbable should be set up! Latest Taggers will handle all the rest of the climbable code :D**
+Once you have followed all those steps your climbable should be set up! Latest Taggers will handle all the rest of the climbable code :D
